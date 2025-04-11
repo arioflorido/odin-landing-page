@@ -9,13 +9,10 @@ html, body {
 body {
     font-family: Roboto, sans-serif;
     min-height: 100vh;
-
     display: flex;
-
     flex-direction: column;
-    /* flex: auto; */
 
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
 }
 
 .header {
@@ -24,7 +21,7 @@ body {
     flex: auto;
     background-color: #1F2937;
 
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .left {
@@ -32,9 +29,9 @@ body {
     flex: auto;
     justify-content: flex-start;
     align-items: center;
-
     padding-left: 100px;
-    border: 2px solid turquoise;
+
+    /* border: 2px solid turquoise; */
 }
 
 .right {
@@ -42,10 +39,9 @@ body {
     flex: auto;
     justify-content: flex-end;
     align-items: center;
-
     padding-right: 100px;
-    border: 2px solid magenta;
 
+    /* border: 2px solid magenta; */
 }
 
 
@@ -59,16 +55,15 @@ body {
     flex-direction: column;
     flex: auto;
 
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
 }
 
 .hero {
     display: flex;
     background-color: #1F2937;
-
     padding: 100px;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .hero-information {
@@ -105,21 +100,39 @@ body {
     justify-content: center;
     color: #1F2937;
     font-weight: 900;
-    font-size: 36px
+    font-size: 36px;
+    padding: 30px;
 }
 
-.container-section {
+.section-information-container {
     display: flex;
     flex: auto;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 52px;
+    padding-bottom: 30px;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .info {
     padding: 16px;
-    width: 300px;
+    max-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    /* border: 2px solid #3882F6; */
+}
+
+.text {
+    text-align: center;
 }
 
 .quote {
@@ -201,3 +214,4 @@ a {
     padding: 0;
     gap: 16px
 }
+
