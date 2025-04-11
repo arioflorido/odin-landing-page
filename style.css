@@ -141,6 +141,9 @@ img {
     /* flex: 0 0 auto; */
     justify-content: space-around;
     align-items: center;
+
+    padding: 120px;
+    gap: 16px;
 }
 
 .quote {
