@@ -63,24 +63,17 @@ body {
     background-color: #1F2937;
     padding: 100px;
 
-    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-information {
-    display: flex;
-    flex-direction: column;
-    /* flex: auto; */
-    /* justify-content: flex-start; */
-
-    align-items: flex-start;
     flex: auto;
 }
 
 .hero-image {
-    display: flex;
+    min-width: 250px;
     flex: auto;
-    align-items: center;
-    color: white;
 }
 
 .hero-information .main-text {
