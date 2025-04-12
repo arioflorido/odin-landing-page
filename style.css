@@ -94,7 +94,7 @@ body {
     color: #E5E7EB;
 }
 
-.section-title{
+.information-title{
     display: flex;
     flex: auto;
     justify-content: center;
@@ -104,7 +104,7 @@ body {
     padding: 30px;
 }
 
-.section-information-container {
+.information-container {
     display: flex;
     flex: auto;
     justify-content: center;
@@ -138,7 +138,6 @@ img {
 .quote {
     display: flex;
     flex-direction: column;
-    /* flex: 0 0 auto; */
     justify-content: space-around;
     align-items: center;
 
@@ -181,7 +180,6 @@ img {
     background-color: #3882F6;
 }
 
-
 .sign-up-button {
     background-color:  #3882F6;
     color: white;
@@ -195,15 +193,13 @@ img {
     border: None;
 }
 
-
 .footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    flex: 0 0 auto;
-    background-color: #1F2937;
-
-    border: 2px solid chartreuse;
+    align-items: center;
+    padding: 20px;
 }
 
 a {
