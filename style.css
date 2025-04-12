@@ -83,13 +83,13 @@ body {
     color: white;
 }
 
-.main-text {
+.hero-information .main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.secondary-text, .header-links {
+.hero-information .secondary-text, .header-links {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -163,20 +163,27 @@ img {
     align-self: flex-end;
 }
 
-.sign-up {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+.sign-up-banner-text-container .main-text {
+    font-size: 16px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
 
-    /* width: 500px; */
+.sign-up-banner-text-container .secondary-text {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    padding: 50px 100px;
 }
 
 .sign-up-banner {
-    /* flex: auto; */
-    /* align-items: flex-end; */
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    border-radius: 5px;
     background-color: #3882F6;
 }
 
@@ -203,7 +210,11 @@ img {
 }
 
 a {
+      /* this removes the line under the links */
     text-decoration: none;
+
+    /* this inherits the color of the parent */
+    color: inherit;
 }
 
 .header-links {
@@ -213,4 +224,3 @@ a {
     padding: 0;
     gap: 16px
 }
-
