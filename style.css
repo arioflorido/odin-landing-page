@@ -186,11 +186,15 @@ img {
     padding: 10px 20px;
 }
 
+button {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .sign-up-button {
     background-color:  #3882F6;
     color: white;
     border-color: white;
-    border-radius: 5px;
     padding: 2px 12px;
     font-weight: 700;
 }
